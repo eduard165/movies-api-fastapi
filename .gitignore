@@ -1,0 +1,37 @@
+# Ignorar el entorno virtual de Python
+venv/
+env/
+
+# Archivos y carpetas generadas por Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de configuración o secretos
+.env
+.secret
+
+# Configuración del editor y del sistema operativo
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# Ignorar dependencias instaladas
+*.egg-info/
+*.eggs/
+dist/
+build/
+
+# Ignorar archivos creados por pytest
+.pytest_cache/
+
+# Ignorar archivos de caché de FastAPI
+*.db-journal
+
+# Ignorar archivos subidos a caché (ej: archivos de caché del sistema operativo)
+.cache/
+*.swp
